@@ -1,0 +1,46 @@
+body {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #E3F0F5;
+    letter-spacing: 2px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #3D3B40;
+}
+
+nav ul {
+    list-style-type: none;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #E3F0F5;
+}
+
+#nav-cv {
+    background-color: #3E8BA0;
+    font-size: x-large;
+    padding: 5px;
+}
+
+#cv-container {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#cv-container img {
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 40%;
+    height: auto;
+}
